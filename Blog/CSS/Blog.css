@@ -130,3 +130,61 @@ h3 {font-size: var(--h3);}
 
 }
 
+.ads-carousel, .carousel-parent {
+    display: flex;
+}
+
+.carousel-parent {
+    overflow: hidden;
+}
+
+.ads-carousel {
+    margin-left: 0px;
+    padding: 20px 0;
+    justify-content: space-evenly;
+    gap: 150px;
+    animation: ads 20s linear infinite;
+    padding-right: 150px;
+}
+
+@keyframes ads {
+    from {
+        translate: 0;
+    }
+    to {
+        translate: -100%;
+    }
+}
+
+.ads-carousel img{
+    width: 150px;
+}
+
+/* ---- FOOTER ---- */
+
+footer {
+    background-color: var(--darker-blue);
+    font-family: "DM-Sans-Regular";
+    padding: 20px 0;
+}
+
+.quick-links {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+    a {
+        color: var(--base-background);
+    }
+}
+
+.breakLine {
+    margin: 20px auto;
+    background-color: var(--base-background);
+    height: 3px;
+    width: 80%;
+}
+
+.cr {
+   text-align: center;
+}
