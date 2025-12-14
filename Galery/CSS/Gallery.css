@@ -43,6 +43,7 @@ h3 {font-size: var(--h3);}
 
 #Logo{
     width: 200px;
+    padding-left: 30px;
 }
 
 .navigations {
