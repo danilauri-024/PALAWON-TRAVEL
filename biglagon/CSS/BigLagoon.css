@@ -98,12 +98,12 @@ h3 {font-size: var(--h3);}
 .landing-title {
     height: 88vh;
     background-repeat: no-repeat;
-    background-image: url(/biglagon/MEDIA/Big-Lagoon/LANDING.png);
+    background-image: url();
     background-size: cover;
     background-position: center center; 
     text-align: center;
     align-content: center;
-    width: auto;
+    width: auto;https://raw.githubusercontent.com/danilauri-024/PALAWON-TRAVEL/refs/heads/main/biglagon/MEDIA/Big-Lagoon/LANDING.png
     object-fit: cover;
 
     h1 {
