@@ -287,13 +287,6 @@ footer {
     background-color: var(--darker-blue);
     font-family: "DM-Sans-Regular";
     padding: 20px 0;
-    color: var(--base-background);
-}
-
-footer {
-    background-color: var(--darker-blue);
-    font-family: "DM-Sans-Regular";
-    padding: 20px 0;
 }
 
 .quick-links {
@@ -303,8 +296,6 @@ footer {
 
     a {
         color: var(--base-background);
-        text-decoration: none;
-        
     }
 }
 
